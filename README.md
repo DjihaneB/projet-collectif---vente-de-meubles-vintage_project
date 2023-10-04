@@ -30,6 +30,7 @@
 - [📦 Fonctionnalités](#-fonctionnalités)
 - [📽️ Démo](#-démo)
 - [📂 Structure du Répertoire](#-structure-du-répertoire)
+- [⚙️ Modules](#-modules)
 - [🚀 Installation des Modules](#-installation-des-modules)
 - [💾 Télécharger la Base de Données](#-télécharger-la-base-de-données)
 - [🔧 Vérifier la Configuration Backend](#-vérifier-la-configuration-backend)
@@ -99,6 +100,23 @@ Découvrez le projet en action grâce à ces vidéos de démonstration :
     └── package.json
 
 ```
+
+## ⚙️ Modules
+
+<details closed>
+<summary>Front</summary>
+
+- `.gitignore`: Fichier pour ignorer les fichiers dans le projet.
+- `package.json`: Informations du projet.
+- `tailwind.config.js`: Configuration Tailwind CSS.
+- `.eslintrc.cjs`: Configuration ESLint.
+- `index.html`: Page d'accueil HTML.
+- `vite.config.js`: Configuration Vite.
+- `postcss.config.js`: Configuration PostCSS.
+
+</details>
+
+---
 
 ## 🚀 Installation des Modules
 
