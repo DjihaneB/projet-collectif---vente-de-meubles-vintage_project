@@ -28,12 +28,14 @@
 
 ## 📖 Table des matières
 - [📦 Fonctionnalités](#-fonctionnalités)
+- [📽️ Démo](#-démo)
 - [📂 Structure du Répertoire](#-structure-du-répertoire)
-- [⚙️ Modules](#modules)
-- [🔧 Installation](#-installation)
-- [📝 Réalisation](#-réalisation)
+- [🚀 Installation des Modules](#-installation-des-modules)
+- [💾 Télécharger la Base de Données](#-télécharger-la-base-de-données)
+- [🔧 Vérifier la Configuration Backend](#-vérifier-la-configuration-backend)
+- [🔧 Vérifier la Configuration Frontend](#-vérifier-la-configuration-frontend)
+- [🚀 Lancer les Serveurs et l'Application](#-lancer-les-serveurs-et-lapplication)
 - [🤝 Contribution](#-contribution)
-
 
 ---
 
@@ -47,17 +49,26 @@
 > - [ ] Nous prévoyons d'ajouter les fonctionnalités suivantes dans les futures versions :
 > - [ ] Paiement en ligne : Intégration d'un système de paiement en ligne pour finaliser les achats.
 > - [ ] Filtrage des produits : Ajout de fonctionnalités de filtrage pour faciliter la recherche de produits.
+
 ---
+
 ## 📽️ Démo
 
 Découvrez le projet en action grâce à ces vidéos de démonstration :
 
-- [Vidéo 1](lien_vers_la_première_vidéo)
+- [Vidéo 1](https://imgur.com/y6JU2cr)
 
   
-- [Vidéo 2](lien_vers_la_deuxième_vidéo)
+- [Vidéo 2](https://imgur.com/zBMGkU2)
+  
+
+- [Vidéo 3]()
+
+  
+- [Vidéo 4]()
 
 ---
+
 ## 📂 Structure du Répertoire
 
 ```sh
@@ -86,7 +97,9 @@ Découvrez le projet en action grâce à ces vidéos de démonstration :
     │   ├── tailwind.config.js
     ├── package-lock.json
     └── package.json
+
 ```
+
 ## 🚀 Installation des Modules
 
 Assurez-vous d'installer les bibliothèques et modules nécessaires pour le projet en suivant ces étapes :
@@ -99,6 +112,7 @@ Assurez-vous d'installer les bibliothèques et modules nécessaires pour le proj
 
 Cela garantira que toutes les parties du projet ont leurs dépendances correctement installées pour un fonctionnement sans problème.
 
+---
 
 ## 💾 Télécharger la Base de Données
 
@@ -107,6 +121,8 @@ Pour obtenir la base de données nécessaire, suivez ces étapes :
 1. Récupérez le fichier `database.sql` du dossier `/back/sql`. Ce fichier sera utilisé pour créer la base de données via phpMyAdmin.
 
 2. Importez le fichier `database.sql` dans phpMyAdmin pour créer la base de données "vente_meubles" avec au moins les tables "testmeubles" et "test_users".
+
+---
 
 ## 🔧 Vérifier la Configuration Backend
 
@@ -121,6 +137,8 @@ HOST='http://localhost'
 
 Le mot de passe peut varier en fonction de votre configuration phpMyAdmin (par exemple, 'root', vide, etc.). Le port de la base de données est différent entre les systèmes Mac (8889) et Windows (3306).
 
+---
+
 ## 🔧 Vérifier la Configuration Frontend
 
 Au cas où le fichier `.env` n'existe pas déjà à la racine du dossier `/front`, créez-le. Assurez-vous que les informations suivantes sont correctes :
@@ -129,6 +147,8 @@ Au cas où le fichier `.env` n'existe pas déjà à la racine du dossier `/front
 VITE_PORT=3000
 VITE_HOST='http://localhost'
 ```
+
+---
 
 ## 🚀 Lancer les Serveurs et l'Application
 
@@ -175,10 +195,10 @@ Vous devriez voir les messages suivants dans la console, indiquant que l'applica
 
 Vous pouvez appuyer sur la touche "o" ou cliquer sur le lien (par exemple : http://localhost:5173/) pour ouvrir le site.
 
+---
 
-Vous pouvez copier et coller ce texte dans votre fichier README.md pour inclure ces instructions. N'hésitez pas à l'adapter selon vos besoins.
+## 🤝 Contribution
 
-🤝 Contribution
 Les contributions sont toujours les bienvenues ! Veuillez suivre ces étapes :
 
 Dupliquez le référentiel du projet. Cela crée une copie du projet sur votre compte que vous pouvez modifier sans affecter le projet d'origine.
